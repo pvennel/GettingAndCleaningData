@@ -7,7 +7,7 @@ output: html_document
 
 ### DATA DICTIONARY
 
-> SUBJECT
+#### SUBJECT
 
 
 Subject Id | Subject Description
@@ -44,7 +44,7 @@ Subject Id | Subject Description
 30 | Subject - 30 
 
 
-> ACTIVITY       
+#### ACTIVITY       
 
 Activity Id | Activity Description
 -------------| -------------
@@ -57,7 +57,9 @@ Activity Id | Activity Description
 
 
 
-> SUMMARYSUBJECTDF
+####SUMMARYSUBJECTDF
+
+The data is grouped by Subject (SUBJECT_ID) by Activity (ACTIVITY_DESC). The columns contain the Mean ( also known as Average) value of the column for that observation. So this means there will be a row for every combination of Subject and activity (30 subjects by 6 Activity = 180 rows)
 
 Column Name                             | Column Description
 --------------------------------------- | ---------------------------------------------------------------------

@@ -5,6 +5,9 @@ date: "Monday, January 19, 2015"
 output: pdf_document
 ---
 
+I download the zip file from the location https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+After this I unzipped this file in the samew location using windows **Extract** feature.
 
 
 I have renamed the original data directory from **UCI HAR Dataset** to **UCI_HAR**. This is because on some operating systems, spaces in file names and directory names can cause issues.
@@ -23,7 +26,7 @@ The original data files that were used for the analysis is as follows:
 
 
 ###Task\#1 Merges the training and the test sets to create one data set
-*R Packages*
+*R Packages* <br>
 I used the following R packages
 ```
 library("dplyr", lib.loc="~/R/win-library/3.1")
@@ -37,13 +40,17 @@ library("tidyr", lib.loc="~/R/win-library/3.1")
 
 I made the following changes in NotePad++
 
-1. removed "()" with ""
+```
+1. replaces "()" with "" (empty space)
 2. replaced "(" with "_"
 3. replaced "," with "-"
+```
 
-This was done directly using the fins and replace command of the editor.
+This was done directly using the find and replace command of the editor.
 
-After the changes it should be noted that,  "**\_**" signify function and "**\-**" signifies separation between function arguments.
+After the changes it should be noted that,  "**\_**" signify function and "**\-**" signifies separation between function arguments.   
+
+While I could have done the above in R, it was just more easy to do it outside of R.
 
 I created a table of the features from the cleaned file from above.Since the file did not have column names, I set the header to FALSE.  
 ```

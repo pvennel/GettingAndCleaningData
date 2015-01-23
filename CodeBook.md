@@ -2,16 +2,20 @@
 title: "Human Activity Recognition Using Smartphones Dataset"
 author: "Peter Vennel"
 date: "Monday, January 19, 2015"
-output: html_document
+output: pdf_document
 ---
 
-### DATA DICTIONARY
+###DATA DICTIONARY      
 
-#### SUBJECT
+<br>
+<br>
 
+####SUBJECT        
 
-Subject Id | Subject Description
--------------| -------------
+This data set contains the Subject info        
+
+Subject Id    | Subject Description
+------------- | -------------
 1  | Subject - 1
 2  | Subject - 2
 3  | Subject - 3
@@ -43,11 +47,15 @@ Subject Id | Subject Description
 29 | Subject - 29
 30 | Subject - 30 
 
+<br>
+<br>
 
-#### ACTIVITY       
+####ACTIVITY       
+
+This has description of the Activities done by each subject.        
 
 Activity Id | Activity Description
--------------| -------------
+------------- | -------------
 1  | WALKING
 2  | WALKING_UPSTAIRS
 3  | WALKING_DOWNSTAIRS
@@ -55,11 +63,12 @@ Activity Id | Activity Description
 5  | STANDING
 6  | LAYING
 
+<br>
+<br>
 
+####SUMMARYSUBJECTDF       
 
-####SUMMARYSUBJECTDF
-
-The data is grouped by Subject (SUBJECT_ID) by Activity (ACTIVITY_DESC). The columns contain the Mean ( also known as Average) value of the column for that observation. So this means there will be a row for every combination of Subject and activity (30 subjects by 6 Activity = 180 rows)
+The data is grouped by Subject (SUBJECT_ID) by Activity (ACTIVITY_DESC). The columns contain the Mean ( also known as Average) value of the column for that observation. So this means there will be a row for every combination of Subject and activity (30 subjects by 6 Activity = 180 rows)       
 
 Column Name                             | Column Description
 --------------------------------------- | ---------------------------------------------------------------------

@@ -2,7 +2,7 @@
 title: "Human Activity Recognition Using Smartphones Dataset"
 author: "Peter Vennel"
 date: "Monday, January 19, 2015"
-output: html_document
+output: pdf_document
 ---
 
 
